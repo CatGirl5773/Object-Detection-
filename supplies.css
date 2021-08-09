@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head {
+    width: 100%;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+canvas {
+    border: 3px solid blue;
+    animation: border 2.5s alternate infinite;
+    border-radius: 10px;
+}
+
+@keyframes border {
+    from {
+        border: 3px solid blue;
+    }
+
+    to {
+        border: 3px solid blueviolet;
+    }
+}
